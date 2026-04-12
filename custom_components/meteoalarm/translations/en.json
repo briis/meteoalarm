@@ -1,0 +1,30 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "MeteoAlarm Configuration",
+                "description": "Configure MeteoAlarm integration to receive weather alerts for your location.",
+                "data": {
+                    "country": "Country",
+                    "province": "Province/Region",
+                    "language": "Language",
+                    "name": "Name"
+                },
+                "data_description": {
+                    "country": "The fullname of your country in English format (lowercase)",
+                    "province": "The province",
+                    "language": "The ISO code of your language, please be aware that this is only possible in the current country",
+                    "name": "Binary sensor name"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect to MeteoAlarm API. Please check your internet connection.",
+            "invalid_auth": "Invalid country or province combination. Please verify your settings.",
+            "unknown": "An unexpected error occurred. Please try again."
+        },
+        "abort": {
+            "already_configured": "This MeteoAlarm location is already configured."
+        }
+    }
+}
