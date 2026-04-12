@@ -3,5 +3,17 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"chat.tools.terminal.autoApprove": {
+			"/^python3 -c \"import meteoalertapi; print\\(dir\\(meteoalertapi\\.Meteoalert\\)\\)\"$/": {
+				"approve": true,
+				"matchCommandLine": true
+			},
+			"/^python3 -c \"import meteoalertapi; import inspect; print\\(inspect\\.getsource\\(meteoalertapi\\.Meteoalert\\.get_alert\\)\\)\"$/": {
+				"approve": true,
+				"matchCommandLine": true
+			}
+		}
+	}
 }
