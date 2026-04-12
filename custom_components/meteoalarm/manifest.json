@@ -1,17 +1,18 @@
 {
   "domain": "meteoalarm",
-  "name": "MeteoAlarm",
   "codeowners": [
     "@briis"
   ],
+  "config_flow": true,
   "documentation": "https://github.com/briis/meteoalarm/meteoalarm",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/briis/meteoalarm/issues",
   "loggers": [
     "meteoalertapi"
   ],
+  "name": "MeteoAlarm",
   "requirements": [
     "meteoalertapi==0.3.1"
   ],
   "version": "2026.4.0",
-  "config_flow": true
 }
