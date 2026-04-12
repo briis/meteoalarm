@@ -2,9 +2,9 @@
   "domain": "meteoalarm",
   "name": "MeteoAlarm",
   "codeowners": [
-    "@rolfberkenbosch"
+    "@briis"
   ],
-  "documentation": "https://www.home-assistant.io/integrations/meteoalarm",
+  "documentation": "https://github.com/briis/meteoalarm/meteoalarm",
   "iot_class": "cloud_polling",
   "loggers": [
     "meteoalertapi"
@@ -12,5 +12,6 @@
   "requirements": [
     "meteoalertapi==0.3.1"
   ],
+  "version": "2026.4.0",
   "config_flow": true
 }
