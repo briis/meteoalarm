@@ -1,6 +1,6 @@
 {
   "domain": "meteoalarm",
-  "name": "MeteoAlarm",
+  "name": "MeteoAlarm with UI Support",
   "codeowners": [
     "@briis"
   ],
