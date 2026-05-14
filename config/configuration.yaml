@@ -1,6 +1,31 @@
 
 # Loads default set of integrations. Do not remove.
-default_config:
+frontend:
+config:
+history:
+logbook:
+sun:
+automation:
+script:
+scene:
+input_boolean:
+input_number:
+input_select:
+input_text:
+input_button:
+input_datetime:
+timer:
+counter:
+person:
+zone:
+tag:
+webhook:
+my:
+media_source:
+schedule:
+energy:
+mobile_app:
+
 
 # Load frontend themes from the themes folder
 frontend:
