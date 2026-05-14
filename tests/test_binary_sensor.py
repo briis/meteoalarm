@@ -50,7 +50,7 @@ class TestMeteoAlertBinarySensor:
             mock_meteoalert_api, "test_sensor", entry_id="entry_123"
         )
 
-        assert sensor._attr_unique_id == "entry_123_test_sensor"
+        assert sensor._attr_unique_id == "entry_123"
 
     @pytest.mark.asyncio
     async def test_update_no_alert(self, mock_meteoalert_api):

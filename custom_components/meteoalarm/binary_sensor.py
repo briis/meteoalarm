@@ -36,7 +36,7 @@ async def async_setup_entry(
     async_add_entities: AddEntitiesCallback,
 ) -> None:
     """Set up the MeteoAlarm binary sensor from a config entry."""
-    config = config_entry.data
+    config = {**config_entry.data, **config_entry.options}
 
     country = config[CONF_COUNTRY]
     province = config[CONF_PROVINCE]
@@ -65,7 +65,7 @@ class MeteoAlertBinarySensor(BinarySensorEntity):
         """Initialize the MeteoAlert binary sensor."""
         self._attr_name = name
         if entry_id:
-            self._attr_unique_id = f"{entry_id}_{name}"
+            self._attr_unique_id = entry_id
         self._api = api
 
     async def async_update(self) -> None:

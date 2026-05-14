@@ -1,0 +1,55 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "MeteoAlarm konfiguration",
+                "description": "Konfigurer MeteoAlarm-integrationen for at modtage vejradvarsler for dit område.",
+                "data": {
+                    "country": "Land",
+                    "province": "Provins/Region",
+                    "language": "Sprog",
+                    "name": "Navn"
+                },
+                "data_description": {
+                    "country": "Landets fulde engelske navn med små bogstaver",
+                    "province": "Provinsens navn",
+                    "language": "ISO-koden for dit sprog. Bemærk at dette kun er muligt for det valgte land",
+                    "name": "Navn på den binære sensor"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Kunne ikke oprette forbindelse til MeteoAlarm API. Kontroller din internetforbindelse.",
+            "invalid_auth": "Ugyldig kombination af land og provins. Kontroller dine indstillinger.",
+            "unknown": "Der opstod en uventet fejl. Prøv igen."
+        },
+        "abort": {
+            "already_configured": "Denne MeteoAlarm-placering er allerede konfigureret."
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "MeteoAlarm indstillinger",
+                "description": "Opdater MeteoAlarm-konfigurationen for dit område.",
+                "data": {
+                    "country": "Land",
+                    "province": "Provins/Region",
+                    "language": "Sprog",
+                    "name": "Navn"
+                },
+                "data_description": {
+                    "country": "Landets fulde engelske navn med små bogstaver",
+                    "province": "Provinsens navn",
+                    "language": "ISO-koden for dit sprog. Bemærk at dette kun er muligt for det valgte land",
+                    "name": "Navn på den binære sensor"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Kunne ikke oprette forbindelse til MeteoAlarm API. Kontroller din internetforbindelse.",
+            "invalid_auth": "Ugyldig kombination af land og provins. Kontroller dine indstillinger.",
+            "unknown": "Der opstod en uventet fejl. Prøv igen."
+        }
+    }
+}
