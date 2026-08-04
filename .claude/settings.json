@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show *)",
+      "Bash(ruff --version)",
+      "Bash(python -m ruff check --select CPY001 .)",
+      "Bash(python -m ruff check .)"
+    ]
+  }
+}

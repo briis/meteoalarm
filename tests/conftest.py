@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Bjarne Riis
 """Fixtures for MeteoAlarm integration tests."""
 
 from unittest.mock import MagicMock, patch

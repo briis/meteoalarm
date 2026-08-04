@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Bjarne Riis
 """Constants for MeteoAlarm integration."""
 
 DOMAIN = "meteoalarm"

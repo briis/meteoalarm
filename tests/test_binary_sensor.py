@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Bjarne Riis
 """Tests for MeteoAlarm binary sensor."""
 
 from datetime import timedelta

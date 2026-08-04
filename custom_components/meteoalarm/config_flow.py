@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Bjarne Riis
 """Config flow for MeteoAlarm integration."""
 
 from __future__ import annotations

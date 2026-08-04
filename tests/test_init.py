@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Bjarne Riis
 """Tests for MeteoAlarm integration initialization."""
 
 from custom_components.meteoalarm import async_setup_entry, async_unload_entry

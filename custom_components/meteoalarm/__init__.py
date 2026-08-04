@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Bjarne Riis
 """The meteoalarm component."""
 
 from typing import TYPE_CHECKING

@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Bjarne Riis
 """Tests for MeteoAlarm config flow."""
 
 from typing import ClassVar
