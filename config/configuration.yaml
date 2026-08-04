@@ -1,13 +1,9 @@
 
 # Loads default set of integrations. Do not remove.
-frontend:
 config:
 history:
 logbook:
 sun:
-automation:
-script:
-scene:
 input_boolean:
 input_number:
 input_select:
