@@ -12,7 +12,7 @@
     "meteoalertapi"
   ],
   "requirements": [
-    "meteoalertapi==0.3.1"
+    "meteoalertapi>=0.3.1"
   ],
   "version": "2026.8.0"
 }
