@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [2026.10.0] - Unreleased
+## [2026.10.0] - 2026-10-01
 
 ### Fixed
 
@@ -18,6 +18,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Pinned `pip` to `>=26.2.1,<26.3`.
 - Bumped `home-assistant/actions/hassfest` GitHub Action ([#41](https://github.com/briis/meteoalarm/pull/41), [#65](https://github.com/briis/meteoalarm/pull/65)).
 - Added devcontainer lock file.
+- Lint workflow now installs only Ruff (version pinned in `requirements.txt`) instead of all dev requirements, making it faster.
 
 ## [2026.8.0] - 2026-08-04
 
@@ -47,6 +48,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Bumped `ruff` from `0.15.10` to `0.15.12` ([#9](https://github.com/briis/meteoalarm/pull/9)).
 - Bumped `aiohasupervisor` requirement from `>=0.4.0` to `>=0.4.3` ([#6](https://github.com/briis/meteoalarm/pull/6)).
 
-[2026.10.0]: https://github.com/briis/meteoalarm/compare/2026.8.0...main
+[2026.10.0]: https://github.com/briis/meteoalarm/compare/2026.8.0...2026.10.0
 [2026.8.0]: https://github.com/briis/meteoalarm/compare/v2026.5.0...2026.8.0
 [2026.5.0]: https://github.com/briis/meteoalarm/compare/v2026.4...v2026.5.0
